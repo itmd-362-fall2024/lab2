@@ -10,19 +10,19 @@
 <body>
   <form action="/submit" method="POST" autocomplete="on">
     <h1>User Info Form</h1>
-    <div class="form">
+    <div>
       <label for="email">Email Adress:</label>
       <input type="email" name="email" id="email" required placeholder="user@domain.com"/>
     </div>
-    <div class="form">
+    <div>
       <label for="phone">Phone Number:</label>
-      <input type="phone" name="phone" id="phone" required placeholder="123-456-7890"/>
+      <input type="phone" name="phone" id="phone" required placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
     </div>
-    <div class="form">
+    <div>
       <label for="birthdate">Date of Birth:</label>
-      <input type="birthdate" name="birthdate" id="birthdate" required required placeholder="mm/dd/yyyy"/>
+      <input type="date" name="birthdate" id="birthdate" required placeholder="mm/dd/yyyy"/>
     </div>
-    <div class="form">
+    <div>
       <button type="submit">Submit</button>
     </div>
   </form>
