@@ -5,23 +5,24 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <link rel="stylesheet" media="screen" href="css/meyersreset-and-normalize-form.css" />
-  <link rel="stylesheet" media="screen" href="css/screen.css" />
+  <link rel="stylesheet" media="screen" href="css/style.css" />
 </head>
 <body>
   <form action="/submit" method="POST" autocomplete="on">
-    <div class="form-class">
+    <h1>User Info Form</h1>
+    <div class="form">
       <label for="email">Email Adress:</label>
       <input type="email" name="email" id="email" required placeholder="user@domain.com"/>
     </div>
-    <div class="form-class">
+    <div class="form">
       <label for="phone">Phone Number:</label>
       <input type="phone" name="phone" id="phone" required placeholder="123-456-7890"/>
     </div>
-    <div class="form-class">
+    <div class="form">
       <label for="birthdate">Date of Birth:</label>
-      <input type="birthdate" name="birthdate" id="birthdate" required />
+      <input type="birthdate" name="birthdate" id="birthdate" required required placeholder="mm/dd/yyyy"/>
     </div>
-    <div class="form-class">
+    <div class="form">
       <button type="submit">Submit</button>
     </div>
   </form>

@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(129, 157, 187);
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  padding: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 1px;
+}
+
+label {
+  display: block;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.form {
+  display: block;
+}
+
+input {
+  margin-left: 10px;
+  font-size: 15px;
+  width: 95%;
+  padding: 10px;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+  background-color: rgb(207, 213, 232);
+  border: 1px solid rgb(96, 104, 123);
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: rgb(178, 183, 200);
+}
+
+@media (min-width: 768px) {
+  form {
+    max-width: 750px;
+    margin: auto;
+  }
+
+  button {
+    width: auto;
+  }
+}
