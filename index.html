@@ -8,6 +8,22 @@
   <link rel="stylesheet" media="screen" href="css/screen.css" />
 </head>
 <body>
-
+  <form action="/submit" method="POST" autocomplete="on">
+    <div class="form-class">
+      <label for="email">Email Adress:</label>
+      <input type="email" name="email" id="email" required placeholder="user@domain.com"/>
+    </div>
+    <div class="form-class">
+      <label for="phone">Phone Number:</label>
+      <input type="phone" name="phone" id="phone" required placeholder="123-456-7890"/>
+    </div>
+    <div class="form-class">
+      <label for="birthdate">Date of Birth:</label>
+      <input type="birthdate" name="birthdate" id="birthdate" required />
+    </div>
+    <div class="form-class">
+      <button type="submit">Submit</button>
+    </div>
+  </form>
 </body>
 </html>
