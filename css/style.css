@@ -52,7 +52,7 @@ button:hover {
     margin: auto;
   }
 
-  button {
+  label, button {
     width: auto;
   }
 }
